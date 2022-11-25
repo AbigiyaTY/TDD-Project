@@ -17,4 +17,29 @@ describe  Solver  do
             expect(Solver.reverse('hello')).to eq('olleh')
         end
     end
+    describe '.fizzbuzz' do
+        context 'When N is divisible by 3' do
+            it 'should return "fizz"' do 
+              expect(Solver.fizzbuzz(3)).to eq('fizz')
+            end
+        end
+        
+        context 'When N is divisible by 5' do
+            it 'should return "buzz"' do
+                expect(Solver.fizzbuzz(5)).to eq('buzz')
+            end
+        end
+
+        context 'When N is divisible by 3 and 5' do
+            it 'should return "fizzbuzz"' do
+                expect(Solver.fizzbuzz(15)).to eq('fizzbuzz')
+            end
+        end
+
+        context 'Any other case' do
+            it 'should return N as a string' do
+                expect(Solver.fizzbuzz(7)).to eq('7')
+            end
+        end
+    end
 end
