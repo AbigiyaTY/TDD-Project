@@ -1,10 +1,9 @@
+require './solver'
 
 describe  Solver  do
-    context  "when given a simple problem"  do
-        it  "should return a solution"  do
-            solver = Solver.new
-            solution = solver.solve
-            solution.should_not be_nil
+    describe factorial do
+        it "should return 1 when given 0" do
+            expect(factorial(0)).to eq(1)
         end
     end
 end
