@@ -4,4 +4,7 @@ class Solver
     raise ArgumentError, 'This method only accepts 0 and positive integers' if n < 0
         n * factorial(n-1)
     end
+    def self.reverse(str)
+        str.reverse
+    end
 end
