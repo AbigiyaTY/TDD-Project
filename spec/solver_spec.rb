@@ -12,4 +12,9 @@ describe  Solver  do
             expect(Solver.factorial(5)).to eq(120)
         end
     end
+    describe '.reverse' do
+        it "should return 'olleh' when given 'hello'" do
+            expect(Solver.reverse('hello')).to eq('olleh')
+        end
+    end
 end
