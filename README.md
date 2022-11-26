@@ -25,7 +25,7 @@
   - [⭐️ Show your support ](#️-show-your-support-)
   - [📝 License ](#-license-)
 
-# 📖 [ OOP school library] <a name="about-project"></a>
+# 📖 [ TDD Project] <a name="about-project"></a>
 
 > Description the project.
 
