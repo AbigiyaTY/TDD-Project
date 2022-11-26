@@ -29,10 +29,10 @@
 
 > Description the project.
 
-1. Implement classes and objects in Ruby.
-2. Implement encapsulation and inheritance with Ruby.
-3. Implement TDD for a class
-4. Test the program using the command line.
+1. Write unit tests using Rspec.
+2. Understand an existing codebase in a way that allows for adding tests.
+3. Write Rspec unit tests with mocks.
+4. Understand the TDD concept
 
 ## 🛠 Built With <a name="built-with"></a>
 
